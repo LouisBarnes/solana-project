@@ -1,0 +1,15 @@
+[features]
+seeds = false
+skip-lint = false
+[programs.devnet]
+myfirstproject = "FNdaqkYHh2396R1UjDe67CBJCx3m1SdTKfMsponXUaTP"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/secrero/.config/solana/id.json"
+
+[scripts]
+test = "node tests/myfirstproject.js"
